@@ -12,6 +12,10 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
+app.get("/", (req, res) => {
+  res.send("HTML → PDF service running");
+});
+
 app.post("/html-to-pdf", async (req, res) => {
   const { html } = req.body;
 
