@@ -46,6 +46,7 @@ app.post("/html-to-pdf", async (req, res) => {
           folder: "generated-pdfs",
           public_id: `pdf-${Date.now()}`,
           format: "pdf",
+          content_type: "application/pdf"
         },
         (err, result) => {
           if (err) reject(err);
