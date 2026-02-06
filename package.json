@@ -1,0 +1,28 @@
+{
+  "name": "htmltopdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyansh0009/htmlToPdf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shreyansh0009/htmlToPdf/issues"
+  },
+  "homepage": "https://github.com/shreyansh0009/htmlToPdf#readme",
+  "dependencies": {
+    "cloudinary": "^2.9.0",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "puppeteer": "^24.37.1"
+  }
+}

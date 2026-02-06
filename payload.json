@@ -1,0 +1,246 @@
+{
+    "html": "<!DOCTYPE html>
+    <html lang=\"en\">
+    <head>
+        <meta charset=\"UTF-8\">
+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+        <title>Quotation</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 5px;
+                background-color: #f 4f4f4;
+    }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+    }
+            table, th, td {
+                border: 1px solid #ddd;
+    }
+            th, td {
+                padding: 5px;
+                text-align: left;
+    }
+            th {
+                background-color: #f4f4f4;
+    }
+            .total-section {
+                font-weight: bold;
+                background-color: #f9f9f9;
+    }
+            .company-details, .quotation-details {
+                margin: 20px 0;
+    }
+            .company-details p, .quotation-details p {
+                margin: 5px 0;
+    }
+            .terms, .thank-you {
+                margin-top: 30px;
+                padding: 10px;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,
+        0,
+        0,
+        0.1);
+    }
+            .thank-you {
+                background-color: #e6f7e6;
+                text-align: center;
+    }
+            .header {
+                text-align: center;
+                padding: 20px;
+    }
+       
+            .company-details-container{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+    }
+ 
+            .header-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;            
+                padding: 20px;
+                background-color: #333;        
+                color: white;
+    }
+ 
+ 
+ 
+            .header-image img {
+                height: auto;
+                max-height: 80px;  
+                max-width: 200px;  
+                object-fit: contain;
+    }
+        </style>
+    </head>
+    <body>
+        <div class=\"container\">
+            <!-- Header section -->
+             <div class=\"header-container\">
+            <div class=\"header\">
+                <h1>QUOTATION</h1>
+            </div>
+ 
+            <div class=\"header-image\" style=\"background-color:white\">
+                <img src='https: //www.logo.wine/a/logo/TVS_Motor_Company/TVS_Motor_Company-Logo.wine.svg' alt=\"Logo or Image\">
+            </div>
+           
+ 
+            </div>
+ 
+            
+            <!-- Company and quotation details -->
+            <div class=\"company-details-container\">
+            <div class=\"company-details\">
+                <p><strong>*Gems Automobiles - Pune</strong></p>
+                <p><strong>Chennai</strong></p>
+                <p>9351930811</p>
+                <p>Email: </p>
+                <p><strong>Bill To:</strong> Dhisk Dnskskks</p>
+            </div>
+            <div class=\"quotation-details\">
+                <p><strong>Quotation No:</strong> 0586</p>
+                <p><strong>Date:</strong> 06-02-2026</p>
+            </div>
+            </div>
+           
+ 
+            <!-- Table for quotation items -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th style=\"width:200px\">Description</th>
+                        <th>Model Name</th>
+                        <th>Components</th>
+                        <th>Amount in ₹</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>1</td>
+                        <td style=\"width:200px\">Apache RR 310 (x1)</td>
+                        <td>Motorcycle</td>
+                       <td colspan=\"2\">
+    <table style=\"width: 100%; border: none;\">
+        <tr>
+            <td style=\"padding: 5px; text-align: left;\">Vehicle Price</td>
+            <td style=\"padding: 0px; text-align: right;\">₹ 1,00,000</td>
+        </tr>
+         <tr>
+            <td style=\"padding: 5px; text-align: left;\">Ex showroom price</td>
+            <td style=\"padding: 0px; text-align: right;\">₹ 1,00,000.00</td>
+        </tr>
+       
+     
+        
+        
+        
+        
+        <tr>
+            <td style=\"padding: 5px; text-align: left;\">On Road Price</td>
+            <td style=\"padding: 0px; text-align: right;\">₹ 1,00,000.00</td>
+        </tr>
+        <tr>
+            <td style=\"padding: 5px; text-align: left;\">Total Amount</td>
+            <td style=\"padding: 0px; text-align: right;\">₹ 1,00,000.00</td>
+        </tr>
+    </table>
+</td>
+ 
+                    </tr>
+                
+                    <tr>
+                        <td>2</td>
+                        <td style=\"width:200px\">TVS iQube (x1)</td>
+                        <td>Electric</td>
+                       <td colspan=\"2\">
+    <table style=\"width: 100%; border: none;\">
+        <tr>
+            <td style=\"padding: 5px; text-align: left;\">Vehicle Price</td>
+            <td style=\"padding: 0px; text-align: right;\">₹ 1,00,000</td>
+        </tr>
+         <tr>
+            <td style=\"padding: 5px; text-align: left;\">Ex showroom price</td>
+            <td style=\"padding: 0px; text-align: right;\">₹ 1,00,000.00</td>
+        </tr>
+       
+     
+        
+        
+        
+        
+        <tr>
+            <td style=\"padding: 5px; text-align: left;\">On Road Price</td>
+            <td style=\"padding: 0px; text-align: right;\">₹ 1,00,000.00</td>
+        </tr>
+        <tr>
+            <td style=\"padding: 5px; text-align: left;\">Total Amount</td>
+            <td style=\"padding: 0px; text-align: right;\">₹ 1,00,000.00</td>
+        </tr>
+    </table>
+</td>
+ 
+                    </tr>
+                
+                            <tr>
+                        <td colspan=\"4\" class=\"total-section\">Grand Total :</td>
+                        <td>₹ 200000</td>
+                    </tr>
+                   
+                   
+                </tbody>
+            </table>
+ 
+           <!-- Bank Account Details -->
+            <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;\">
+                <p><strong>Bank Account Details</strong></p>
+                <p><strong>Authorized Signatory</strong></p>
+            </div>
+            <p>
+                <br>
+                Bank: BOB<br>
+                Branch: Shastri Chowk Chennai<br>
+                Account No: <br>
+                IFSC Code: BARBOHARIBH<br>
+                Type of A/c: Current A/c
+            </p>
+ 
+ 
+            <!-- Terms and Conditions -->
+           <div class=\"terms\">
+                <h3>Terms & Conditions</h3>
+                <p>1. Warranty: 3 Years or 100,
+    000 Kms whichever is earlier.</p>
+                <p>2. Extended Warranty for two years or 50,
+    000 Kms whichever is earlier, is available at additional cost of 14,
+    000rs.</p>
+                <p>3. All the payments to be made in the name of M/s. Li-ON Mobility.</p>
+                <p>4. Accidental and Non-regular Maintenance repair cost (wear & tear) will be to your account, which is not covered in warranty.</p>
+                <p>5. Price subject to change without notice and that prevailing at the time of actual billing day will alone be acceptable irrespective of the date of Order/Acceptance/Payment.</p>
+                <p>6. Delivery Subject to availability of Stock for delivery at Showroom. Vehicles will be delivered after the registration formalities.</p>
+                <p>7. 100% payment to be made 2 days before Delivery.</p>
+                <p>8. Accessories Breakup - Basic Kit: Mobile Holder, Bottle Holder, Floor Mat (Set of 2) & Mudflap (3nos): 1400/-.</p>
+                <p>9. AMC - 0.44 paise per KM - up to 36 months or 1 lac KM whichever is earlier.</p>
+                <p>10. RSA - First Year Free, Second & Third Year - 1500rs per Year, Service - Max 4 Times per Calendar Year.</p>
+            </div>
+ 
+ 
+            <!-- Thank You Message -->
+            <div class=\"thank-you\">
+                THANK YOU FOR YOUR BUSINESS!
+            </div>
+            
+        </div>
+    </body>
+    </html>"
+}
